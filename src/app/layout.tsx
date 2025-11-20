@@ -42,6 +42,19 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=PT+Sans:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap"
           rel="stylesheet"
         />
+          {/* Google Tag Manager Script */}
+          <script
+              src="https://www.googletagmanager.com/gtag/js?id=AW-17642653097"
+          />
+
+          <script id="gtag-init">
+              {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17642653097');
+          `}
+          </script>
       </head>
       <body
         className={cn(
