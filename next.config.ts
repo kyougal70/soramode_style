@@ -21,7 +21,7 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         //todo: have to change backend url
-        hostname: 'http://localhost:3001',
+        hostname: 'https://react-back-qd49.onrender.com',
         port: '',
         pathname: '/**',
       },
