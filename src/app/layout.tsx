@@ -64,7 +64,7 @@ export default function RootLayout({
       >
       <FpjsProvider
           loadOptions={{
-            apiKey: 'fXFDKwB88JiT364PCsPN',
+            apiKey: 'tANDnMoEVRSEhxd2XdqQ',
           }}
       >
         <PreferenceProvider>
