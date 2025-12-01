@@ -42,7 +42,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=PT+Sans:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap"
           rel="stylesheet"
         />
-          <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=b459f5a4"></script>
+          <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=bbd549d8"></script>
           {/* Google Tag Manager Script */}
           <script
               src="https://www.googletagmanager.com/gtag/js?id=AW-17642653097"
