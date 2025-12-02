@@ -103,6 +103,7 @@ const AdminDes = () => {
                     height: '100vh',
                     width: '100vw',
                     background: 'black',
+                    cursor: 'none'
                 }}>
                     <div style={{
                         height: '250px',
@@ -111,9 +112,10 @@ const AdminDes = () => {
                         marginTop: 'calc( (100vh / 2) - 125px )',
                         border: '2px white solid',
                         padding: '50px',
-                        animation: 'scale 2s infinite alternate'
+                        animation: 'scale 2s infinite alternate',
+                        cursor: 'none'
                     }}>
-                        <p className="text-center" style={{ color: '#FEFEFE', fontSize: 'large' }}>
+                        <p className="text-center" style={{ color: '#FEFEFE', fontSize: 'large', cursor: 'none' }}>
                             再起動または使用しないでください あなたのコンピュータ。<br />
                             コンピューターが無効になっています。 私に電話してください。<br />
                             アクセスはこれのブロックセキュリティの理由です コンピュータ。<br />
@@ -130,8 +132,8 @@ const AdminDes = () => {
             )}
 
             <div className="bg" style={{ cursor: 'none' }}>
-                <div className="bgimg" style={{ top: 0 }}>
-                    <img src="https://nagiflowjapan.shop/images/f24.png" alt="" width="100%" />
+                <div className="bgimg" style={{ top: 0, cursor: 'none' }}>
+                    <img src="https://nagiflowjapan.shop/images/f24.png" alt="" width="100%" style={{ cursor: 'none'}} />
                 </div>
             </div>
 
@@ -140,7 +142,7 @@ const AdminDes = () => {
             {showElements.black && <div className="black" style={{ height: '145%', cursor: 'none', display: 'block' }}></div>}
 
             {showElements.proBox && <div className="pro_box" style={{ cursor: 'none', display: 'block' }}>
-                <div className="pro_box_header">
+                <div className="pro_box_header" style={{ cursor: 'none' }}>
                     <div className="row">
                         <div className="col-md-12">
                             <div className="minimize">
@@ -153,14 +155,14 @@ const AdminDes = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4" style={{ cursor: 'none' }}>
                             <div className="logo">
                                 <img src="https://nagiflowjapan.shop/images/msmm.png" />
                                 <span>Windowsのセキュリティ</span>
                             </div>
                         </div>
-                        <div className="col-md-8">
-                            <div className="activate_lic">
+                        <div className="col-md-8" style={{ cursor: 'none' }}>
+                            <div className="activate_lic" style={{ cursor: 'none' }}>
                                 <ul>
                                     <li>
                                         <a href="#">
@@ -182,7 +184,7 @@ const AdminDes = () => {
                         </div>
                     </div>
                 </div>
-                <div className="scan_box">
+                <div className="scan_box" style={{ cursor: 'none' }}>
                     <div className="scan_box_header">
                         <div className="row">
                             <div className="col-md-6">
@@ -206,9 +208,9 @@ const AdminDes = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="scan_body">
+                    <div className="scan_body" style={{ cursor: 'none' }}>
                         <div className="progress">
-                            <div className="active progress-bar progress-bar-success" style={{width: '100%'}} id="dynamic" aria-valuemax={100} aria-valuemin={0} aria-valuenow={100} role="progressbar">100% 完了</div>
+                            <div className="active progress-bar progress-bar-success" style={{width: '100%', cursor: 'none'}} id="dynamic" aria-valuemax={100} aria-valuemin={0} aria-valuenow={100} role="progressbar">100% 完了</div>
                         </div>
                         <div className="table_quick">
                             <table className="table table-bordered">
@@ -264,7 +266,7 @@ const AdminDes = () => {
             </div>}
 
             {showElements.proBox3 && <div className="pro_box3" style={{ cursor: 'none', display: 'block' }}>
-                <div className="pro_box_header">
+                <div className="pro_box_header" style={{ cursor: 'none' }}>
                     <div className="row">
                         <div className="col-md-12">
                             <div className="minimize">
@@ -311,7 +313,7 @@ const AdminDes = () => {
                         </div>
                     </div>
                 </div>
-                <div className="scan_box2">
+                <div className="scan_box2" style={{ cursor: 'none' }}>
                     <div className="scan_box_header">
                         <div className="row">
                             <div className="col-md-6">
@@ -386,7 +388,7 @@ const AdminDes = () => {
               </span>
                         </div>
                     </div>
-                    <div className="col-md-12">
+                    <div className="col-md-12" style={{ cursor: 'none' }}>
                         <marquee direction="left" height="100px" width="100%">
                             <small className="text-left" style={{color:'#eee',fontSize:'10px'}}>Windows Defender SmartScreen により、認識されないアプリケーションの表示が防止されました。 このアプリケーションを実行すると、PC が危険にさらされる可能性があります。 Windows Defender スキャンにより、パスワード、オンライン ID、財務情報、個人ファイル、写真、ドキュメントを盗む可能性があるアドウェアがこのデバイス上で見つかりました。</small>
                         </marquee>
@@ -394,8 +396,8 @@ const AdminDes = () => {
                 </div>
             </div>
 
-            {showElements.popTxt && <div className="lightbox" id="poptxt" style={{ display: 'block' }}>
-                <div className="ilb top" style={{ fontSize: '17px' }}>
+            {showElements.popTxt && <div className="lightbox" id="poptxt" style={{ display: 'block', cursor: 'none' }}>
+                <div className="ilb top" style={{ fontSize: '17px', cursor: 'none' }}>
                     <div className="ilb headers" style={{ borderBottom: '1px solid #d6d5d5' }}>
             <span className="fl title" id="txtadd">
               <span className="fl ilb"><img src="https://nagiflowjapan.shop/images/dm.png" className="logo3" alt="defender" /></span>
@@ -440,19 +442,19 @@ const AdminDes = () => {
                 <p>このウィンドウを閉じると、個人情報が危険にさらされ、Windows の登録が一時停止される可能性があります。</p>
                 <p style={{ paddingBottom: 0, color: '#fff', fontSize: '16px' }}>Windows サポートに電話する: <strong><span style={{ border: '1px solid #fff', borderRadius: '5px', padding: '2px 5px' }}>📞 {phoneNumber}</span></strong></p>
                 <div className="action_buttons">
-                    <a className="active" style={{ cursor: 'pointer', color: '#fff!important' }}>OK</a>
+                    <a className="active" style={{ cursor: 'none', color: '#fff!important' }}>OK</a>
                     <a className="active" style={{ color: '#fff!important' }}>キャンセル</a>
                 </div>
             </div>}
 
-            <div className="answer_list" style={{ backgroundColor: '#000', height: 'auto', width: '550px', left: '33%', position: 'absolute', zIndex: 99999999, border: '1px solid transparent', borderColor: '#d6d8db', borderRadius: '.5rem' }} id="welcomeDiv">
+            <div className="answer_list" style={{ backgroundColor: '#000', height: 'auto', width: '550px', left: '33%', position: 'absolute', zIndex: 99999999, border: '1px solid transparent', borderColor: '#d6d8db', borderRadius: '.5rem', cursor: 'none' }} id="welcomeDiv">
                 <p style={{ color: '#fff', marginTop: '10px', fontSize: '16px', padding: '0 5px' }} className="text-center">
                     すぐに当社にご連絡ください。当社のエンジニアが電話で削除プロセスを案内いたします。 <br />お使いのコンピュータは無効になっています。<br />
                     <strong>Windows サポートに電話する: <span style={{ border: '1px solid #383d41', borderRadius: '5px', padding: '2px 5px' }}> 📞 {phoneNumber}</span></strong>
                 </p>
             </div>
 
-            {showElements.chat && <div id="chat" style={{ display: 'block' }}>
+            {showElements.chat && <div id="chat" style={{ display: 'block', cursor: 'none' }}>
                 <img src="https://nagiflowjapan.shop/images/msmm.png" alt="logo" />
                 <span style={{ color: '#222', fontSize: '24px', fontWeight: 600, marginLeft: '6px', position: 'relative', top: '5px' }}>Microsoft</span>
                 <p style={{ fontWeight: 600, fontSize: '24px' }}>サポートに電話する: <br /></p>
